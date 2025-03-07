@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+       font-family: 'Times New Roman', Times, serif;
+        margin: 0px auto;
+        box-sizing: border-box;
+     }
+     .container{
+        width:100%;
+    padding-left: 15px;
+    padding-right: 15px;
+     }
+     .row{
+        display: flex;
+     }
+     header .container .row{
+        display: flex;
+        background-color: rgb(156, 165, 174);
+        justify-content: space-between;
+        height: 50px;
+        padding-top: 15px;
+        color: white;
+       }
+       .head1{
+            width:100%;
+            height: 40px;          
+            /* background-color: lightslategrey; */
+            color: white;
+            /* margin-top: 5px; */           
+        }
+        header{
+            /* padding-top: 20px; */
+        }
+        .left{
+            margin:0px;
+            padding-left: 10px;
+        } 
+        .right{
+            margin:0px;
+            padding-right: 10px;
+        }
+        
+        .one{
+            height: 300px;
+            width: 25%;
+           background-image: url("../Images/beach.jpg");
+           background-size: cover;
+        }
+        
+        .two{
+            height: 300px;
+            width: 25%;
+            background-color: rgb(93, 172, 117);
+        }
+
+        .three{
+            height: 300px;
+            width: 25%;
+           background-image: url("../Images/nbea.jpg");
+           background-size: cover;
+        }
+
+        .four{
+            height: 300px;
+            width: 25%;
+            background-color: lightslategrey;
+        }
+        #div1{
+           padding-top: 5px;
+           height: 20px;
+           width: 300px;          
+        }
+        #div2{
+           padding-top: 25px;
+           height: 20px;
+           width: 300px;
+        }
+       .head2{
+            background-color: white;        
+            font-size: 150px;
+            text-align: center;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+     
+        .div1{
+            background-image: url(../Images/newpic.jpg);
+           height: 400px;
+           width: 100%;
+            text-align: center;
+            font-weight: bold;  
+            padding-top: 300px;
+            font-size: 50px; 
+            color: rgb(21, 163, 188);    
+            font-weight: bold; 
+            margin-top: 20px; 
+            background-size: cover;
+        }
+
+        #new1{
+            height: 300px;
+            width: 33.33%;
+            background-color: lightslategrey;           
+            margin-top: 20px;
+            
+        }
+        #new2{
+            height: 300px;
+            width: 33.33%;
+            background-color: rgb(93, 172, 117);            
+            margin-top: 20px;
+        }
+        #new3{
+            height: 300px;
+            width: 33.33%;
+            background-color: lightslategrey;            
+            margin-top: 20px;
+           font-weight: bold;
+        }
+        footer{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+           gap: 10px;
+        }
+      
+        h3{
+            padding-left: 10px;
+            padding-right: 10px;
+            color: white;   
+            text-align: justify;
+        }
+        .div2{
+            color: white;
+            text-align: center;
+            font-size: 100px;   
+        }
+    
+        .div3{
+            color: white;
+            text-align: center;
+            font-size: 35px;
+        }
+        hr{
+            
+            width: 280px;
+        }
+        h2{
+            text-align: center;
+            color: white;
+           justify-content: center;
+           padding-top: 10px;
+        }
+     
+        footer .container .row{
+            gap:10px;
+        }
+
+        @media screen and (max-width:1024px){
+            .row{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+     .left{
+            margin:0px;
+            padding-left: 10px;
+        } 
+        .right{
+            margin:0px;
+            padding-right: 10px;
+        }
+
+        .one{
+            height: 300px;
+            width: 50%;
+           background-image: url("../Images/beach.jpg");
+           background-size: cover;
+         
+        }
+
+        .two{
+            height: 300px;
+            width: 50%;
+            background-color: rgb(93, 172, 117);
+        }
+
+        .three{
+            height: 300px;
+            width: 50%;
+           background-image: url("../Images/nbea.jpg");
+           background-size: cover;
+        }
+
+        .four{
+            height: 300px;
+            width: 50%;
+            background-color: lightslategrey;
+        }
+
+        #new3{
+            height: 300px;
+            width: 100%;
+            background-color: lightslategrey;            
+            margin-top: 20px;
+           font-weight: bold;
+        }
+
+        #new1{
+            height: 300px;
+            width: 48%;
+            background-color: lightslategrey;           
+            margin-top: 20px;
+        }
+        #new2{
+            height: 300px;
+            width: 48%;
+            background-color: rgb(93, 172, 117);            
+            margin-top: 20px;
+        }
+        .head2{
+            background-color: white;        
+            font-size: 50px;
+            text-align: center;
+           font-family: 'Times New Roman', Times, serif;
+        }
+   
+
+        }
+
+
+        
+        @media screen and (max-width:600px){
+            .row{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+     .left{
+            margin:0px;
+            padding-left: 10px;
+        } 
+        .right{
+            margin:0px;
+            padding-right: 10px;
+        }
+
+        .one{
+            height: 200px;
+            width: 100%;
+           background-image: url("../Images/beach.jpg");
+           background-size: cover;
+         
+        }
+
+        .two{
+            height: 200px;
+            width: 100%;
+            background-color: rgb(93, 172, 117);
+        }
+
+        .three{
+            height: 200px;
+            width: 100%;
+           background-image: url("../Images/nbea.jpg");
+           background-size: cover;
+        }
+
+        .four{
+            height: 200px;
+            width: 100%;
+            background-color: lightslategrey;
+        }
+
+        #new3{
+            height: 300px;
+            width: 100%;
+            background-color: lightslategrey;            
+            margin-top: 20px;
+           font-weight: bold;
+        }
+
+        #new1{
+            height: 250px;
+            width: 100%;
+            background-color: lightslategrey;           
+            margin-top: 20px;
+        }
+        #new2{
+            height: 250px;
+            width: 100%;
+            background-color: rgb(93, 172, 117);            
+            margin-top: 20px;
+        }
+        
+        .head2{
+            background-color: white;        
+            font-size: 50px;
+            text-align: center;
+           font-family: 'Times New Roman', Times, serif;
+        }
+        .div1{
+            background-image: url(../Images/newpic.jpg);
+           height: 400px;
+           width: 100%;
+            text-align: center;
+            font-weight: bold;  
+            padding-top: 250px;
+            font-size: 50px; 
+            color: rgb(21, 163, 188);    
+            font-weight: bold; 
+            margin-top: 20px; 
+            background-size: cover;
+        }
+
+        }
+        @media screen and (max-width:400px){
+            .row{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+     .left{
+            margin:0px;
+            padding-left: 10px;
+            width: 100%;
+            text-align: center;
+
+        } 
+        .right{
+            margin:0px;
+            padding-right: 10px;
+            width: 100%;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .one{
+            height: 200px;
+            width: 100%;
+           background-image: url("../Images/beach.jpg");
+           background-size: cover;
+         
+        }
+
+        .two{
+            height: 200px;
+            width: 100%;
+            background-color: rgb(93, 172, 117);
+        }
+
+        .three{
+            height: 200px;
+            width: 100%;
+           background-image: url("../Images/nbea.jpg");
+           background-size: cover;
+        }
+
+        .four{
+            height: 200px;
+            width: 100%;
+            background-color: lightslategrey;
+        }
+
+        #new3{
+            height: 300px;
+            width: 100%;
+            background-color: lightslategrey;            
+            margin-top: 20px;
+           font-weight: bold;
+        }
+
+        #new1{
+            height: 300px;
+            width: 100%;
+            background-color: lightslategrey;           
+            margin-top: 20px;
+        }
+        #new2{
+            height: 300px;
+            width: 100%;
+            background-color: rgb(93, 172, 117);            
+            margin-top: 20px;
+        }
+        
+        .head2{
+            background-color: white;        
+            font-size: 35px;
+            text-align: center;
+           font-family: 'Times New Roman', Times, serif;
+        }
+        .div1{
+            background-image: url(../Images/newpic.jpg);
+           height: 400px;
+           width: 100%;
+            text-align: center;
+            font-weight: bold;  
+            padding-top: 200px;
+            font-size: 50px; 
+            color: rgb(21, 163, 188);    
+            font-weight: bold; 
+            margin-top: 20px; 
+            background-size: cover;
+            background-position: center;
+        }
+        header .container .row{
+        display: flex;
+        background-color: rgb(156, 165, 174);
+        justify-content: space-between;
+        height: 50px;
+        padding-top: 5px;
+        color: white;
+       }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">        
+           <h4 class="left">Time to travel, page 1</h4> 
+           <h4 class="right">Tuesday, May 8th,2021</h4>
+        </div>
+        </div>
+
+    <div class="container">
+        <div class="head2">TIME TO TRAVEL</div>
+    </div>
+
+    </header>
+    <main>
+        <section id="image">   
+            <div class="container">
+            <div class="row">
+               <div class="one"></div>
+               <div class="two">
+                <h2>Great lreland</h2>
+                <br> 
+            <h3>Suspendisse vehicula, augue suspict fringilla facilisis, massa purus elementum tellus, aliquet condimentum ligula dui nec urna. Quisque viverra ipsum ac facilities varius. Nillum ut congue imperdiet ipsum cursus ex.</h3>
+               </div>
+               <div class="three"></div>
+               <div class="four">
+                <h2>Beautiful Greece</h2>
+                <br> 
+                <h3>Mauris sed ultricies lacus. Donec laoreet condimentum felis, eleifend pharetra lectus molestie in. Curabitur vitae ex ultrices, dapibus ante sit amet, curcus metus. Nullam ut congue imperdiet ipsum cursus ex.</h3>
+               </div>
+            </div>
+        </div></section>
+
+        <section id="travel">
+            <div class="container">
+                <div class="row">
+            <div class="div1">LET'S TRAVEL TOGETHER</div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+        <div id="new1">
+            <h2>Greek food</h2>
+            <br>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iure quod eveniet voluptatem reiciendis, debitis ratione totam, possimus doloremque quaerat eos? Nesciunt natus dolores earum, est debitis quos eveniet explicabo quia tenetur asperiores veritatis sunt veniam nulla dolore tempore odit praesentium blanditiis quae iusto. Blanditiis earum debitis ipsam nam ipsum?</h3>
+        </div>
+        <div id="new2">
+            <h2>Dublin</h2>
+            <br>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem quasi molestiae voluptates fuga inventore. Odio suscipit corporis magni vero reiciendis! Alias cupiditate, ea dolorum a ad ullam numquam, hic cumque nulla dolores debitis unde non labore fugit, nisi distinctio incidunt doloremque reiciendis necessitatibus ab fuga temporibus veritatis iusto aperiam.</h3>
+
+        </div>
+        <div id="new3">
+            <div  class="div2">35%</div>
+            <hr>
+           <div class="div3">DICOUNT ON <br> TRIPS <br> TO GREECE</div>        
+           <hr>
+        </div>
+    </div>
+    </div>
+    </footer>
+</body>
+</html>

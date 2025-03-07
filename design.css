@@ -9,11 +9,11 @@
 }
 .row{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .hero{
     background-image: linear-gradient(rgb(238, 219, 48), rgb(165, 219, 37)); 
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     height: 40px;
     width: 100%;
@@ -31,7 +31,7 @@ color: white;
 }
 .text{
     text-align: center;
-    font-size: 8.75rem;
+    font-size: 6rem;
     letter-spacing: 3px;
     color: rgb(68, 151, 68);
     font-family: "Sigmar", serif;
@@ -94,6 +94,12 @@ color: white;
     font-family: "Rowdies", serif;
     
 }
+/* footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    gap: 10px;
+} */
 .part{
     width: 100%;
     display: flex;
@@ -105,17 +111,20 @@ color: white;
     height: 230px;
     background-image: linear-gradient(rgb(59, 142, 197), rgb(152, 201, 40)); 
     padding: 20px;
+    margin-top: 20px;
 }
 .part2{
     width: 33%;
     height: 230px;
     background-image: linear-gradient(rgb(0, 255, 234), rgb(145, 68, 180)); 
     padding: 20px;
+    margin-top: 20px;
 }
 .part3{
     width: 33%;
     height: 230px;
     background-image: linear-gradient(rgb(192, 73, 176), rgb(193, 235, 94)); 
+    margin-top: 20px;
     
 }
 .part3 h2{
@@ -128,20 +137,4 @@ color: white;
     margin-top: 5px;
     text-align: center;
 }
-   /* Responsive started here */
-
- @media screen and (max-width:1200px){
-    .text{
-         width: 100%;
-         height: 400px;
-         background-color: rgb(233, 122, 122);
-    }
- }  
- @media screen and (max-width:657px){
-    .text{
-         width: 100%;
-         height: 750px;
-         background-color: rgb(207, 181, 34);
-    }
- } 
-  
+ 

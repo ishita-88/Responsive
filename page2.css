@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_1{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.nav_2{
+  
+}
+.navbar ul{
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    display:flex;
+}
+.navbar li{
+    text-decoration: none;
+    color: grey;
+    padding: 10px 20px;
+}
+a {
+    margin: 5px;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.fa-facebook{
+    color: rgb(67, 92, 235);
+    font-size: 25px;
+ }
+ .fa-facebook:hover {
+     color: red;
+      font-size: 25px;
+     /* margin: 25px 10px; */ 
+ }
+ 
+ .fa-twitter{
+     color: rgb(30, 143, 209);
+     font-size: 25px;
+  }
+  .fa-twitter:hover{
+    color: red;
+    font-size: 25px;
+  }
+  .fa-instagram{
+     color: rgb(167, 10, 57);
+     font-size: 25px;
+  }
+  .fa-instagram:hover{
+    color: red;
+    font-size: 25px;
+ }
+ .hero{
+    margin-top: 30px;
+    background-image: url(image/photo1.avif);
+    background-size: cover;
+    width: 100%;
+    height: 760px;
+    position: relative;
+    z-index: 1;
+ }
+ .hero::before{
+    content: "";
+    width: 100%;
+    height: 760px;
+    /* background-size: cover; */
+    background-color: black;
+    z-index: 2;
+    opacity:0.5;
+    position: absolute;
+}
+.hero h1{
+    z-index: 3;
+    font-size: 55px;
+    padding: 80px;
+    color: rgb(36, 228, 18);
+    font-family: "Rowdies", serif;
+    letter-spacing: 4px;
+}
+.hero p{
+    font-size: 1.1rem;
+    padding: 35px;
+    color: rgb(240, 235, 229);
+    font-family: "PT Sans", serif;
+}
+.hero button{
+    padding: 20px;
+    margin-left: 50px;
+    color: rgb(240, 236, 235);
+    background-color: orangered;
+    box-shadow: 5px  5px  rgb(212, 189, 189, 0.5);
+    border-radius: 10%;
+}
+.hero button:hover{
+    color: greenyellow;
+    
+}
+
+/* about part started here */
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.about_1{
+    /* padding: 40px; */
+    margin-top: 40px;
+    width: 50%;
+}
+.about_1 h2{
+    font-size: 45px;
+    font-family: "Lilita One", serif;
+    color: rgb(154, 82, 221);
+}
+.about_1 p{
+    font-family: "PT Sans", serif;
+}
+.about_1 button{
+    background-color: rgb(175, 140, 207);
+    font-size: 20px;
+    color: white;
+}
+.about_1 button:hover{
+    background-color: rgb(240, 98, 16);
+    font-size: 20px;
+    color: white;
+}
+.about_2{
+    margin-top: 40px;
+    width: 50%;
+    background-image: url(image/photo2.avif);
+    background-size: cover;
+    height: 400px;
+    /* padding: 40px; */
+    /* border: solid green 2px; */
+    box-shadow: 10px 10 px rgb(13, 196, 196,0.5);
+}
+
+/* 3part started here */
+.part{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.part_1{
+    width: 30%;
+    height: 250px;
+    /* border: black 2px solid; */
+    background-image: url(image/family.avif);
+    background-size: cover;
+}
+.part_2{
+    width: 30%;
+    height: 250px;
+    /* border: black 2px solid; */
+    background-image: url(image/personal.avif);
+    background-size: cover;
+}
+.part_3{
+    width: 30%;
+    height: 250px;
+    /* border: black 2px solid; */
+    background-image: url(image/branding.avif);
+    background-size: cover;
+    
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+.para1{
+    width: 30%;
+    height: 200px;
+    font-family: "Merienda", serif;
+}
+.para2{
+    width: 30%;
+    height: 200px;
+    font-family: "Merienda", serif;
+}
+.para3{
+    width: 30%;
+    height: 200px;
+    font-family: "Merienda", serif;
+}
+.para h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Lilita One", serif;
+    color: rgb(97, 168, 25);
+}
+.para button{
+    border-radius: 5%; 
+   background-color: rgb(192, 231, 140);
+   color: green;
+   font-family: "Lilita One", serif;
+   font-size: 20px;
+ }
+
+.para button:hover{
+   border-radius: 5%; 
+  background-color: rgb(252, 167, 10);
+  color: white;
+  font-family: "Lilita One", serif;
+  font-size: 20px;
+}
+/* blue part started here */
+.blue{
+    /* width: 100%; */
+    height: 200px;
+    background-color: rgb(2, 2, 48);
+    color: white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 1rem;
+    padding: 60px;
+    text-align: center;
+}
+/* portfolio part started here */
+.portfolio{
+    margin-top: 40px;
+    padding: 40px;
+}
+.portfolio h2{
+    font-size: 2rem;
+    font-family: "Lilita One", serif;
+    color: cornflowerblue;
+}
+.one{
+   width: 30%;
+   height: 250px;
+   background-image: url(image/port1.avif);
+   background-size: cover;
+}
+.two{
+    width: 30%;
+    height: 250px;
+    background-image: url(image/port2.avif);
+    background-size: cover;
+ }
+ .three{
+    width: 30%;
+    height: 250px;
+    background-image: url(image/port3.avif);
+    background-size: cover;
+ }
+ .four{
+    width: 30%;
+    height: 250px;
+    background-image: url(image/port4.avif);
+    background-size: cover;
+ }
+ .five{
+    width: 30%;
+    height: 250px;
+    background-image: url(image/port5.avif);
+    background-size: cover;
+ }
+ .six{
+    width: 30%;
+    height: 250px;
+    background-image: url(image/port6.avif);
+    background-size: cover;
+ }
+ /* footer part started here */
+ .fifth_1{
+    width: 50%;
+    height: 400px;
+    /* border: 2px solid black; */
+    background-color: rgb(1, 1, 19);
+    color: white;
+    font-family: "Merienda", serif;
+    text-align: left;
+    font-size: 1rem;
+    padding: 90px;
+}
+.fifth_2{
+    width: 50%;
+    height: 400px;
+    /* border: 2px solid black; */
+    background-color: rgb(1, 1, 19);
+    color: white;
+    padding: 40px;
+    font-family: "Merienda", serif;
+}
+ input[type="text"],input[type="email"]{
+       background-color: rgba(19,19,61,0.3);
+       border: o.5px solid rgba(172,172,207,0.3);
+       border-radius: 3px;
+       width: 450px;
+       height: 30px;
+ }
+ textarea{
+    background-color: rgba(19,19,61,0.3);
+    border: o.5px solid rgba(172,172,207,0.3);
+
+ }
