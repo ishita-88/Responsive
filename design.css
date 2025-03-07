@@ -1,140 +1,129 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
-.container{
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+.container {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.row{
-    display: flex;
-    /* flex-wrap: wrap; */
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
 }
-.hero{
-    background-image: linear-gradient(rgb(238, 219, 48), rgb(165, 219, 37)); 
-    /* display: flex; */
-    justify-content: space-between;
-    height: 40px;
-    width: 100%;
-    margin-top: 10px;
+.hero {
+  background-image: linear-gradient(rgb(238, 219, 48), rgb(165, 219, 37));
+  /* display: flex; */
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
 }
-.left{
-    padding: 10px;
-    font-size: 20px;
-    color: white;
+.left {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
 }
-.right{
-padding: 10px;
-font-size: 20px;
-color: white;
+.right {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
 }
-.text{
-    text-align: center;
-    font-size: 6rem;
-    letter-spacing: 3px;
-    color: rgb(68, 151, 68);
-    font-family: "Sigmar", serif;
+.text {
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 3px;
+  color: rgb(68, 151, 68);
+  font-family: "Sigmar", serif;
 }
- /* second part started */
- .one{
-    width: 25%;
-    height: 230px;
-    background-image: url(image/pic_1.jpg);
-    background-size: cover;
- }
- .three{
-    width: 25%;
-    height: 230px;
-    background-image: url(image/pic_2.jpg);
-    background-size: cover;
- }
- .two{
-    width: 25%;
-    height: 230px;
-    background-image: linear-gradient(orange, rgb(152, 201, 40));
-    
- }
-.four{
-    width: 25%;
-    height: 230px;
-    background-image: linear-gradient(rgb(204, 60, 204), rgb(152, 201, 40)); 
+/* second part started */
+.one {
+  width: 25%;
+  border: black 2px solid;
 }
-.style_para{
-    font-size: 18px;
-    font-family: "Quicksand", serif;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    color: white;
-    text-align: justify;
+.img1 {
+  width: 25%;
 }
-.headline{
-     text-align: center;
-     color: rgb(31, 27, 27);
-     font-family: "Oswald", serif;
+.three {
+  width: 25%;
+  border: black 2px solid;
 }
-.picture{
-    width: 100%;
-    height: 850px;
-    background-image: url(image/pic3.jpeg);
-    background-size: cover;
-    margin-top: 10px;
+.two {
+  font-size: 18px;
+  font-family: "Quicksand", serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  color: white;
+  text-align: justify;
+  width: 25%;
+  background-image: linear-gradient(orange, rgb(152, 201, 40));
 }
-.write{
-    text-align: center;
-    color: limegreen;
-    font-size: 3rem;
-    letter-spacing: 2px;
-    position: absolute;
-    margin-top:40px;
-    /* left: 28%;  */
-    /* border: 2px solid rgb(232, 98, 20); */
-    width: 100%;
-    font-family: "Rowdies", serif;
-    
+.four {
+  font-size: 18px;
+  font-family: "Quicksand", serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  color: white;
+  text-align: justify;
+  width: 25%;
+  background-image: linear-gradient(rgb(204, 60, 204), rgb(152, 201, 40));
 }
-/* footer{
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
-    gap: 10px;
-} */
-.part{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+
+.headline {
+  text-align: center;
+  color: rgb(31, 27, 27);
+  font-family: "Oswald", serif;
 }
-.part1{
-    width: 33%;
-    height: 230px;
-    background-image: linear-gradient(rgb(59, 142, 197), rgb(152, 201, 40)); 
-    padding: 20px;
-    margin-top: 20px;
+.picture {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 5px;
+  position: relative;
+  z-index: -1;
 }
-.part2{
-    width: 33%;
-    height: 230px;
-    background-image: linear-gradient(rgb(0, 255, 234), rgb(145, 68, 180)); 
-    padding: 20px;
-    margin-top: 20px;
+.write {
+  margin-top: 50px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: rgb(8, 9, 8);
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-family: "Rowdies", serif;
 }
-.part3{
-    width: 33%;
-    height: 230px;
-    background-image: linear-gradient(rgb(192, 73, 176), rgb(193, 235, 94)); 
-    margin-top: 20px;
-    
+
+.part {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.part3 h2{
-    font-size: 5rem;
-    color: white;
+.part1 {
+  width: 33%;
+  height: 230px;
+  background-image: linear-gradient(rgb(59, 142, 197), rgb(152, 201, 40));
+  padding: 20px;
 }
-.part3 span{
-    font-size: 2.5rem;
-    color: white;
-    margin-top: 5px;
-    text-align: center;
+.part2 {
+  width: 33%;
+  height: 230px;
+  background-image: linear-gradient(rgb(0, 255, 234), rgb(145, 68, 180));
+  padding: 20px;
 }
- 
+.part3 {
+  width: 33%;
+  height: 230px;
+  background-image: linear-gradient(rgb(192, 73, 176), rgb(193, 235, 94));
+}
+.part3 h2 {
+  font-size: 5rem;
+  color: white;
+}
+.part3 span {
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+}

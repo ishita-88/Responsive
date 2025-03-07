@@ -1,0 +1,30 @@
+
+@media (max-width: 650px) {
+    .style_para{
+        font-size: 1.5rem;
+    }
+    .container .row{
+        flex-direction: column;
+    }
+    .container .two{
+        width: 100%;
+        height: 300px;
+    }
+    .container .four{
+        width: 100%;
+        height: 300px;
+    }
+    .container .one{
+        width: 100%;
+        object-fit: cover;
+     }
+     .container .three{
+        width: 100%;
+        object-fit: cover;
+     }
+}
+@media (max-width: 400px) {
+    .style_para{
+        font-size: 1rem;
+    }
+}
